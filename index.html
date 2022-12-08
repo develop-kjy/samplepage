@@ -953,8 +953,7 @@
       <!-- <div class="chart01 mb-3">
         <canvas id="chart">2d</canvas>
       </div> -->
-      <div style="height: 100px; background-color:#fff;">
-        <p style="text-align: center;">차트</p>
+      <div id="cost_sales_roas">
       </div>
     </div>
 
@@ -967,8 +966,7 @@
       <!-- <div class="chart01 mb-3">
         <canvas id="chart">2d</canvas>
       </div> -->
-      <div style="height: 100px; background-color:#fff;">
-        <p style="text-align: center;">차트</p>
+      <div id="imp_clk">
       </div>
     </div>
 
@@ -1054,7 +1052,7 @@
 
 
   </div>
-  
+
   <br>
   <br>
   <p style="height:10px; background-color: #000;"></p>
@@ -1072,6 +1070,8 @@
     <span class="text-dark bg-gray-400 m-0 p-2"><strong>파워링크PC_키워드별 효율</strong></span>
     <div class="row m-0 ">
       <div class="col-md-4 p-0">
+        <p class="border py-1 m-0 text-center text-white" style="background-color: #188aad;"><strong>노출수
+            TOP10</strong></p>
         <table class="table table-bordered table-sm m-0 fs-1">
           <thead>
             <tr class="text-center text-white font-weight-bold" style="background-color: #188aad;">
@@ -1168,15 +1168,17 @@
           </tbody>
         </table>
       </div>
-      <div class="col-md-2 p-0">차트</div>
+      <div class="col-md-2 p-0 sixchart"></div>
       <div class="col-md-4 p-0">
+        <p class="border py-1 m-0 text-center text-white" style="background-color: #188aad;"><strong>클릭수 TOP10</strong></p>
+
         <table class="table table-bordered table-sm m-0 fs-1">
           <thead>
             <tr class="text-center text-white font-weight-bold" style="background-color: #188aad;">
               <th scope="col" class="py-1 px-0 ">순위</th>
               <th scope="col" class="py-1 px-4 ">그룹</th>
               <th scope="col" class="py-1 px-3 ">키워드</th>
-              <th scope="col" class="py-1 px-1 ">노출수</th>
+              <th scope="col" class="py-1 px-1 ">클릭수</th>
               <th scope="col" class="py-1 px-0 ">이전기간</th>
               <th scope="col" class="py-1 px-0 ">변동</th>
             </tr>
@@ -1266,17 +1268,20 @@
           </tbody>
         </table>
       </div>
-      <div class="col-md-2 p-0">차트</div>
+      <div class="col-md-2 p-0 sixchart"></div>
+
     </div>
     <div class="row m-0 ">
       <div class="col-md-4 p-0">
+        <p class="border py-1 m-0 text-center text-white" style="background-color: #8dc97e;"><strong>평균CPC TOP10</strong></p>
+
         <table class="table table-bordered table-sm m-0 fs-1">
           <thead>
-            <tr class="text-center text-white font-weight-bold" style="background-color: #188aad;">
+            <tr class="text-center text-white font-weight-bold" style="background-color: #8dc97e;">
               <th scope="col" class="py-1 px-0 ">순위</th>
               <th scope="col" class="py-1 px-4 ">그룹</th>
               <th scope="col" class="py-1 px-3 ">키워드</th>
-              <th scope="col" class="py-1 px-1 ">노출수</th>
+              <th scope="col" class="py-1 px-1 ">평균CPC</th>
               <th scope="col" class="py-1 px-0 ">이전기간</th>
               <th scope="col" class="py-1 px-0 ">변동</th>
             </tr>
@@ -1366,15 +1371,19 @@
           </tbody>
         </table>
       </div>
-      <div class="col-md-2 p-0">차트</div>
+      <div class="col-md-2 p-0 sixchart"></div>
+
       <div class="col-md-4 p-0">
+        <p class="border py-1 m-0 text-center text-white" style="background-color: #8dc97e;"><strong>광고비용
+            TOP10</strong></p>
+
         <table class="table table-bordered table-sm m-0 fs-1">
           <thead>
-            <tr class="text-center text-white font-weight-bold" style="background-color: #188aad;">
+            <tr class="text-center text-white font-weight-bold" style="background-color: #8dc97e;">
               <th scope="col" class="py-1 px-0 ">순위</th>
               <th scope="col" class="py-1 px-4 ">그룹</th>
               <th scope="col" class="py-1 px-3 ">키워드</th>
-              <th scope="col" class="py-1 px-1 ">노출수</th>
+              <th scope="col" class="py-1 px-1 ">광고비용</th>
               <th scope="col" class="py-1 px-0 ">이전기간</th>
               <th scope="col" class="py-1 px-0 ">변동</th>
             </tr>
@@ -1464,17 +1473,20 @@
           </tbody>
         </table>
       </div>
-      <div class="col-md-2 p-0">차트</div>
+      <div class="col-md-2 p-0 sixchart"></div>
+
     </div>
     <div class="row m-0 mb-4">
       <div class="col-md-4 p-0">
+        <p class="border py-1 m-0 text-center text-white" style="background-color: #646464;"><strong>전환수 TOP10</strong></p>
+
         <table class="table table-bordered table-sm m-0 fs-1">
           <thead>
-            <tr class="text-center text-white font-weight-bold" style="background-color: #188aad;">
+            <tr class="text-center text-white font-weight-bold" style="background-color: #646464;">
               <th scope="col" class="py-1 px-0 ">순위</th>
               <th scope="col" class="py-1 px-4 ">그룹</th>
               <th scope="col" class="py-1 px-3 ">키워드</th>
-              <th scope="col" class="py-1 px-1 ">노출수</th>
+              <th scope="col" class="py-1 px-1 ">전환수</th>
               <th scope="col" class="py-1 px-0 ">이전기간</th>
               <th scope="col" class="py-1 px-0 ">변동</th>
             </tr>
@@ -1564,15 +1576,18 @@
           </tbody>
         </table>
       </div>
-      <div class="col-md-2 p-0">차트</div>
+      <div class="col-md-2 p-0 sixchart"></div>
+
       <div class="col-md-4 p-0">
+        <p class="border py-1 m-0 text-center text-white" style="background-color: #646464;"><strong>매출 TOP10</strong></p>
+
         <table class="table table-bordered table-sm m-0 fs-1">
           <thead>
-            <tr class="text-center text-white font-weight-bold" style="background-color: #188aad;">
+            <tr class="text-center text-white font-weight-bold" style="background-color: #646464;">
               <th scope="col" class="py-1 px-0 ">순위</th>
               <th scope="col" class="py-1 px-4 ">그룹</th>
               <th scope="col" class="py-1 px-3 ">키워드</th>
-              <th scope="col" class="py-1 px-1 ">노출수</th>
+              <th scope="col" class="py-1 px-1 ">매출</th>
               <th scope="col" class="py-1 px-0 ">이전기간</th>
               <th scope="col" class="py-1 px-0 ">변동</th>
             </tr>
@@ -1662,7 +1677,8 @@
           </tbody>
         </table>
       </div>
-      <div class="col-md-2 p-0">차트</div>
+      <div class="col-md-2 p-0 sixchart"></div>
+
     </div>
 
 
