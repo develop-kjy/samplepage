@@ -12720,3 +12720,32 @@ input[type=file] {
   background: url('../images/chart.png') no-repeat center;
   background-size: 90%;
 }
+
+
+#fivechart {
+  font-size: 0;
+}
+
+#fivechart>div {
+  width: 20%;
+  height: 300px;
+  background: url('../images/chart2.png') no-repeat center;
+  background-size: contain;
+  display: inline-block;
+
+
+}
+
+#threechart {
+  width: 100%;
+  height: 300px;
+  background: url('../images/chart3.png') no-repeat center;
+  background-size: contain;
+}
+
+.fiveround{
+  width: 100%;
+  height: 300px;
+  background: url('../images/chart4.png') no-repeat center;
+  background-size: 100% 80%;
+}
